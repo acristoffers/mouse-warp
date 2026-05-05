@@ -1,0 +1,7 @@
+{
+    "name": "Mouse Warp",
+    "description": "Moves the mouse cursor to the center of the focused window on focus change.",
+    "uuid": "mouse-warp@acristoffers.me",
+    "url": "https://github.com/acristoffers/mouse-warp",
+    "shell-version": ["49", "50"]
+}

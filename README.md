@@ -23,4 +23,4 @@ gnome-extensions enable mouse-warp@acristoffers.me
 
 Then restart GNOME Shell (log out and back in, or press `Alt+F2`, type `r`, Enter on X11).
 
-[ego]: https://extensions.gnome.org/extension/mouse-warp@acristoffers.me
+[ego]: https://extensions.gnome.org/extension/9836/mouse-warp

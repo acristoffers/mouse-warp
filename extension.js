@@ -31,6 +31,10 @@ export default class MouseWarp extends Extension {
         const seat = Clutter.get_default_backend().get_default_seat();
         if (!seat) return;
 
+        const [x, y] = global.get_pointer();
+
+        if (x >= rect.x && x < rect.x + rect.width && y >= rect.y && y < rect.y + rect.height) return;
+
         seat.warp_pointer(
             rect.x + Math.floor(rect.width / 2),
             rect.y + Math.floor(rect.height / 2),
